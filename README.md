@@ -1,4 +1,5 @@
 🍽️ Yaammy Admin Panel - Food Delivery App Dashboard (Flutter + Firebase)
+
 📌 Overview
 Yaammy Admin Panel is a modern, responsive Flutter-based web dashboard built for managing a complete food delivery ecosystem. This includes customers, restaurants, delivery partners, orders, banners, coupons, commissions, and more. Designed to work seamlessly with Firebase as the backend, it provides powerful tools to oversee and control operations efficiently.
 
@@ -29,6 +30,7 @@ Admin Web Panel (this project)
 📬 Handle support requests and user feedback
 
 ⚙️ Access settings, refund policies, and platform configurations
+
 
 🔐 Authentication
 Firebase Auth for admin login
@@ -71,18 +73,14 @@ Analysis
 
 Settings
 
-🧱 Tech Stack
-Layer	Technology
-Frontend	Flutter Web (Material UI)
-Backend	Firebase (Firestore, Auth)
-State	setState / Provider (optional)
-Charts	fl_chart
-Routing	Navigator, Drawer-based
+| Layer        | Technology                     |
+| ------------ | ------------------------------ |
+| **Frontend** | Flutter Web (Material UI)      |
+| **Backend**  | Firebase (Firestore, Auth)     |
+| **State**    | setState / Provider (optional) |
+| **Charts**   | fl\_chart                      |
+| **Routing**  | `Navigator`, Drawer-based      |
 
-📂 Project Structure
-bash
-Copy
-Edit
 admin_panel_yaammy/
 ├── lib/
 │   ├── screens/           # Individual pages/screens
@@ -92,6 +90,7 @@ admin_panel_yaammy/
 ├── pubspec.yaml           # Dependencies (fl_chart, firebase_core, etc.)
 ├── web/                   # Web support
 └── README.md
+
 🔧 Setup & Installation
 1. Prerequisites
 Flutter SDK (≥ 3.10)
